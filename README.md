@@ -1,24 +1,5 @@
-# README
+# Chatter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Build a twitter clone in 10 mins with Rails, CableReady, and StimulusReflex
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Project built for this demo: https://youtu.be/F5hA79vKE_E
