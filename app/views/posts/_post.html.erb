@@ -1,0 +1,15 @@
+<div class="card mb-2">
+  <div class="card-body">
+    <h5 class="card-title text-muted">
+      <%= post.username %>
+      <small>- <%= time_ago_in_words post.created_at %> ago</small>
+    </h5>
+    <div class="card-text lead mb-2"><%= post.body %></div>
+    <%= link_to "#", class: "card-link", data: { reflex: "click->PostsReflex#repost", id: post.id } do %>
+      Repost (<%= tag.span post.reposts_count, id: "post-#{post.id}-reposts" %>)
+    <% end %>
+    <%= link_to "#", class: "card-link", data: { reflex: "click->PostsReflex#like", id: post.id } do %>
+      Like (<%= tag.span post.likes_count, id: "post-#{post.id}-likes" %>)
+    <% end %>
+  </div>
+</div>
