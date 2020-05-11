@@ -1,6 +1,10 @@
 import { Controller } from 'stimulus'
 import StimulusReflex from 'stimulus_reflex'
 
+document.addEventListener('cable-ready:after-insert-adjacent-html', () =>
+  setTimeout(StimulusReflex.setupDeclarativeReflexes, 1)
+)
+
 /* This is your application's ApplicationController.
  * All StimulusReflex controllers should inherit from this class.
  *
