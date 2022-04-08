@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_28_211945) do
+ActiveRecord::Schema.define(version: 2022_04_08_133936) do
 
   create_table "posts", force: :cascade do |t|
     t.string "username", default: "hopsoft", null: false

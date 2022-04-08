@@ -5,7 +5,7 @@
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "5.1.1",
+    "@rails/webpacker": "5.4.3",
     "cable_ready": "^4.1.2",
     "stimulus": "^1.1.1",
     "stimulus_reflex": "^3.2.1",
@@ -13,6 +13,6 @@
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.11.2"
   }
 }
